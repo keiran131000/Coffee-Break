@@ -52,7 +52,7 @@
 
     .bar{
 
-        background-image:url(back%20div.png);
+        background-image:url(Bars/back%20div.png);
         border-bottom: 6px solid blue;
         border-top: 6px solid blue;
         color: darkblue;
@@ -160,32 +160,32 @@ $total4 = ($bob / $dave4)
         <!--Set Bars-->
         <div class = "bar" id = "Bar 1" >
             <h1>Marketing</h1>
-            <img src = "blue.gif" style="margin-left:80%; margin-right:0px;position:absolute; width:180px;height:180px;" id="ghost1">
+            <img src = "/Ghosts/blue.gif" style="margin-left:80%; margin-right:0px;position:absolute; width:180px;height:180px;" id="ghost1">
 
-            <img class = "Character" id = "1" style="Margin-Left:<?php echo $total; ?>%" src = "giphy-pacman.gif">
+            <img class = "Character" id = "1" style="Margin-Left:<?php echo $total; ?>%" src = "/Pac/giphy-pacman.gif">
 
         </div>
 
 
 
         <div class = "bar" id = "Bar 2">
-            <h1>Marketing</h1>
-            <img src = "red.gif" style="margin-left:80%; margin-right:0px;position:absolute; width:180px;height:180px;" id="ghost2">
-            <img class = "Character" id = "2" style="Margin-Left:<?php echo $total2; ?>%" src = "giphy-pacman.gif">
+            <h1>Tech Support</h1>
+            <img src = "/Ghosts/red.gif" style="margin-left:80%; margin-right:0px;position:absolute; width:180px;height:180px;" id="ghost2">
+            <img class = "Character" id = "2" style="Margin-Left:<?php echo $total2; ?>%" src = "/Pac/giphy-pacman.gif">
 
         </div>
 
         <div class = "bar" id = "Bar 3">
-            <h1>Marketing</h1>
-            <img src = "orange.gif" style="margin-left:80%; margin-right:0px;position:absolute; width:180px;height:180px;" id="ghost3">
-            <img class = "Character" id = "3" style="Margin-Left:<?php echo $total3; ?>% ; border-left(solid)" src = "giphy-pacman.gif">
+            <h1>Special Projects</h1>
+            <img src = "/Ghosts/orange.gif" style="margin-left:80%; margin-right:0px;position:absolute; width:180px;height:180px;" id="ghost3">
+            <img class = "Character" id = "3" style="Margin-Left:<?php echo $total3; ?>% ; border-left(solid)" src = "/Pac/giphy-pacman.gif">
 
         </div>
 
         <div class = "bar" id = "Bar 4">
-            <h1>Marketing</h1>
-            <img src = "pink.gif" style="margin-left:80%; margin-right:0px;position:absolute; width:180px;height:180px;" id="ghost4">
-            <img class = "Character" id = "4" style="Margin-Left:<?php echo $total4; ?>%"  src = "giphy-pacman.gif">
+            <h1>Finance</h1>
+            <img src = "/Ghosts/pink.gif" style="margin-left:80%; margin-right:0px;position:absolute; width:180px;height:180px;" id="ghost4">
+            <img class = "Character" id = "4" style="Margin-Left:<?php echo $total4; ?>%"  src = "/Pac/giphy-pacman.gif">
 
         </div>
 
@@ -234,120 +234,120 @@ $total4 = ($bob / $dave4)
     <!--Translate-->
     <script>
         if (parseInt(<?php echo $total; ?>) > 24 ){
-            document.getElementById("Bar 1").style.backgroundImage = "url('bar2.png')";
+            document.getElementById("Bar 1").style.backgroundImage = "url('/Bars/bar2.png')";
         }
         if (parseInt(<?php echo $total; ?>) > 25 ){
-            document.getElementById("Bar 1").style.backgroundImage = "url('bar3.png')";
+            document.getElementById("Bar 1").style.backgroundImage = "url('/Bars/bar3.png')";
         }
 
         if (parseInt(<?php echo $total; ?>) > 47 ){
-            document.getElementById("Bar 1").style.backgroundImage = "url('bar4.png')";
+            document.getElementById("Bar 1").style.backgroundImage = "url('/Bars/bar4.png')";
         }
 
         if (parseInt(<?php echo $total; ?>) > 60 ){
-            document.getElementById("Bar 1").style.backgroundImage = "url('bar5.png')";
+            document.getElementById("Bar 1").style.backgroundImage = "url('/Bars/bar5.png')";
         }
         if (parseInt(<?php echo $total; ?>) > 71 ){
-            document.getElementById("Bar 1").style.backgroundImage = "url('bar6.png')";
+            document.getElementById("Bar 1").style.backgroundImage = "url('/Bars/bar6.png')";
         }
 
         if (parseInt(<?php echo $total; ?>) > 80 ){
-            document.getElementById("Bar 1").style.backgroundImage = "url('bar6.png')";
+            document.getElementById("Bar 1").style.backgroundImage = "url('/Bars/bar6.png')";
         }
-        
-        
-        
-        
-        
-        
-        
-        
-                if (parseInt(<?php echo $total2; ?>) > 24 ){
-            document.getElementById("Bar 2").style.backgroundImage = "url('bar2.png')";
+
+
+
+
+
+
+
+
+        if (parseInt(<?php echo $total2; ?>) > 24 ){
+            document.getElementById("Bar 2").style.backgroundImage = "url('/Bars/bar2.png')";
         }
         if (parseInt(<?php echo $total2; ?>) > 25 ){
-            document.getElementById("Bar 2").style.backgroundImage = "url('bar3.png')";
+            document.getElementById("Bar 2").style.backgroundImage = "url('/Bars/bar3.png')";
         }
 
         if (parseInt(<?php echo $total2; ?>) > 47 ){
-            document.getElementById("Bar 2").style.backgroundImage = "url('bar4.png')";
+            document.getElementById("Bar 2").style.backgroundImage = "url('/Bars/bar4.png')";
         }
 
         if (parseInt(<?php echo $total2; ?>) > 60 ){
-            document.getElementById("Bar 2").style.backgroundImage = "url('bar5.png')";
+            document.getElementById("Bar 2").style.backgroundImage = "url('/Bars/bar5.png')";
         }
         if (parseInt(<?php echo $total2; ?>) > 71 ){
-            document.getElementById("Bar 2").style.backgroundImage = "url('bar6.png')";
+            document.getElementById("Bar 2").style.backgroundImage = "url('/Bars/bar6.png')";
         }
 
         if (parseInt(<?php echo $total2; ?>) > 80 ){
-            document.getElementById("Bar 2").style.backgroundImage = "url('bar6.png')";
+            document.getElementById("Bar 2").style.backgroundImage = "url('/Bars/bar6.png')";
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-                if (parseInt(<?php echo $total3; ?>) > 24 ){
-            document.getElementById("Bar 3").style.backgroundImage = "url('bar2.png')";
+
+
+
+
+
+
+
+
+
+
+
+        if (parseInt(<?php echo $total3; ?>) > 24 ){
+            document.getElementById("Bar 3").style.backgroundImage = "url('/Bars/bar2.png')";
         }
         if (parseInt(<?php echo $total3; ?>) > 25 ){
-            document.getElementById("Bar 3").style.backgroundImage = "url('bar3.png')";
+            document.getElementById("Bar 3").style.backgroundImage = "url('/Bars/bar3.png')";
         }
 
         if (parseInt(<?php echo $total3; ?>) > 47 ){
-            document.getElementById("Bar 3").style.backgroundImage = "url('bar4.png')";
+            document.getElementById("Bar 3").style.backgroundImage = "url('/Bars/bar4.png')";
         }
 
         if (parseInt(<?php echo $total3; ?>) > 60 ){
-            document.getElementById("Bar 3").style.backgroundImage = "url('bar5.png')";
+            document.getElementById("Bar 3").style.backgroundImage = "url('/Bars/bar5.png')";
         }
         if (parseInt(<?php echo $total3; ?>) > 71 ){
-            document.getElementById("Bar 3").style.backgroundImage = "url('bar6.png')";
+            document.getElementById("Bar 3").style.backgroundImage = "url('/Bars/bar6.png')";
         }
 
         if (parseInt(<?php echo $total3; ?>) > 80 ){
-            document.getElementById("Bar 3").style.backgroundImage = "url('bar6.png')";
+            document.getElementById("Bar 3").style.backgroundImage = "url('/Bars/bar6.png')";
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-                if (parseInt(<?php echo $total4; ?>) > 24 ){
-            document.getElementById("Bar 4").style.backgroundImage = "url('bar2.png')";
+
+
+
+
+
+
+
+
+
+
+
+
+
+        if (parseInt(<?php echo $total4; ?>) > 24 ){
+            document.getElementById("Bar 4").style.backgroundImage = "url('/Bars/bar2.png')";
         }
         if (parseInt(<?php echo $total4; ?>) > 25 ){
-            document.getElementById("Bar 4").style.backgroundImage = "url('bar3.png')";
+            document.getElementById("Bar 4").style.backgroundImage = "url('/Bars/bar3.png')";
         }
 
         if (parseInt(<?php echo $total4; ?>) > 47 ){
-            document.getElementById("Bar 4").style.backgroundImage = "url('bar4.png')";
+            document.getElementById("Bar 4").style.backgroundImage = "url('/Bars/bar4.png')";
         }
 
         if (parseInt(<?php echo $total4; ?>) > 60 ){
-            document.getElementById("Bar 4").style.backgroundImage = "url('bar5.png')";
+            document.getElementById("Bar 4").style.backgroundImage = "url('/Bars/bar5.png')";
         }
         if (parseInt(<?php echo $total4; ?>) > 71 ){
-            document.getElementById("Bar 4").style.backgroundImage = "url('bar6.png')";
+            document.getElementById("Bar 4").style.backgroundImage = "url('/Bars/bar6.png')";
         }
 
         if (parseInt(<?php echo $total4; ?>) > 80 ){
-            document.getElementById("Bar 4").style.backgroundImage = "url('bar6.png')";
+            document.getElementById("Bar 4").style.backgroundImage = "url('/Bars/bar6.png')";
         }
 
 
