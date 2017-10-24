@@ -85,7 +85,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "SELECT COUNT(*) AS `bob` FROM `ricochet` WHERE `ExpanderId` = 1 AND `id` > 3925460 AND (`DevNo` = 8 OR `DevNo` = 12 OR `DevNo` = 11 OR `DevNo` = 21) ";
+$sql = "SELECT COUNT(*) AS `bob` FROM `ricochet` WHERE `ExpanderId` = 1 AND `id` > 3925460 AND (`DevNo` = 8 OR `DevNo` = 27 OR `DevNo` = 11 OR `DevNo` = 19) ";
 
 $result = $conn->query($sql);
 
@@ -99,7 +99,7 @@ while($row = $result->fetch_assoc()){
 
 
 
-$sql = "SELECT COUNT(*) as `dave` FROM `ricochet` WHERE `DevNo`= 25 AND `ExpanderId` = 1 AND `id` > 3925460 ";
+$sql = "SELECT COUNT(*) as `dave` FROM `ricochet` WHERE `DevNo`= 19 AND `ExpanderId` = 1 AND `id` > 3925460 ";
 
 $result = $conn->query($sql);
 
@@ -287,7 +287,7 @@ while($row = $result->fetch_assoc()){
         if (parseInt(<?php echo $total2; ?>) > 10 ){
             document.getElementById("Bar 2").style.backgroundImage = "url('/Bars/bar2.png')";
         }
-        if (parseInt(<?php echo $total2; ?>) > 25 ){
+        if (parseInt(<?php echo $total2; ?>) > 25){
             document.getElementById("Bar 2").style.backgroundImage = "url('/Bars/bar3.png')";
         }
 
