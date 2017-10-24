@@ -9,3 +9,5 @@ I had never used any PHP prior to the event but after one days work I was writin
 See below the interface we designed, as you can see it forms a dashboard and is very retro themed. There are some small pieces of code to edit the gif such as transforming the top ghost to look in the opposite direction. I also included the average temperature over the four room with a vision to add individual temperatures. I also added the number of times a door had been opened again by querying the database and returning the number of records with that device ID.
 
 Calculations were also interesting so I learnt how to use math functions within PHP and therefore could do all of my querying and interrogation server side therefore reducing the load an the client. This means the site loads slightly quicker.
+
+Thanks
