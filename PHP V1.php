@@ -235,7 +235,7 @@ $total4 = ($bob / $dave4)
     <script>
         
  if (parseInt(<?php echo $total4; ?>) > 80 ){
-     document.body.style.backgroundImage = "url('img_tree.png')";
+     document.body.style.backgroundImage = "url('bar6.png')";
            
             
         }
