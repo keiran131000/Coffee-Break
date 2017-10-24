@@ -83,7 +83,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "SELECT count(*) as `bob` FROM `ricochet` WHERE `ExpanderId` = 1 AND `id` > 3780000 ";
+$sql = "SELECT COUNT(*) AS 'bob' FROM `ricochet` WHERE `ExpanderId` = 1 AND `id` > 3780000 AND `DevNo` = 17 OR `DevNo` = 12 OR `DevNo` = 11 OR `DevNo` = 21 ";
 
 $result = $conn->query($sql);
 
@@ -105,7 +105,7 @@ while($row = $result->fetch_assoc()){
     $dave = $row['dave'];
 }
 
-$total = ($bob / $dave) 
+$total = ($bob / $dave) -200 
 ?>
 
 
@@ -118,7 +118,7 @@ while($row = $result->fetch_assoc()){
     $dave2 = $row['dave2'];
 }
 
-$total2 = ($bob / $dave2)    
+$total2 = ($bob / $dave2) -200   
 ?>
 
 <?php    
@@ -130,7 +130,7 @@ while($row = $result->fetch_assoc()){
     $dave3 = $row['dave3'];
 }
 
-$total3 = ($bob / $dave3)    
+$total3 = ($bob / $dave3) -200 
 ?>
 
 <?php    
@@ -142,7 +142,7 @@ while($row = $result->fetch_assoc()){
     $dave4 = $row['dave4'];
 }
 
-$total4 = ($bob / $dave4)    
+$total4 = ($bob / $dave4) -200    
 ?>
 
 
@@ -328,7 +328,7 @@ $total4 = ($bob / $dave4)
 
 
 
-        if (parseInt(<?php echo $total4; ?>) > 24 ){
+        if (parseInt(<?php echo $total4; ?>) > 10 ){
             document.getElementById("Bar 4").style.backgroundImage = "url('/Bars/bar2.png')";
         }
         if (parseInt(<?php echo $total4; ?>) > 25 ){
