@@ -5,9 +5,9 @@
 <style>
     body{
         background-color: black
-        
-        
-        
+
+
+
     }
     h1{
         position: absolute;
@@ -18,14 +18,14 @@
         margin-left: 10px;
         background: blue;
         padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
         padding-top: 30px;
         margin-bottom: 10px
-        
-        
-        
+
+
+
     }
 
     .title{
@@ -45,13 +45,13 @@
         margin-left: 10px;
         border-left-color: black;
         border-left-style: solid;
-        
-        
+
+
 
     }
 
     .bar{
-        
+
         background-image:url(back%20div.png);
         border-bottom: 6px solid blue;
         border-top: 6px solid blue;
@@ -59,7 +59,7 @@
         padding-bottom: 10px;
         padding-top: 10px;
         background-position: top;
-        
+
 
 
     }
@@ -157,11 +157,11 @@ $total4 = ($bob / $dave4)
 
 
     <body style="background:black">
-<!--Set Bars-->
+        <!--Set Bars-->
         <div class = "bar" id = "Bar 1" >
             <h1>Marketing</h1>
             <img src = "blue.gif" style="margin-left:80%; margin-right:0px;position:absolute; width:180px;height:180px;" id="ghost1">
-            
+
             <img class = "Character" id = "1" style="Margin-Left:<?php echo $total; ?>%" src = "giphy-pacman.gif">
 
         </div>
@@ -193,54 +193,174 @@ $total4 = ($bob / $dave4)
 
     </body>
 
-    
+
 
     <script>    
 
-//remove pacman when hits ghost
+        //remove pacman when hits ghost
         if (parseInt(<?php echo $total; ?>) > 80 ){
             document.getElementById('1').style.display = 'none';
             document.getElementById('1').style.visibility = 'hidden';
-            
+
         }
-        
+
         if (parseInt(<?php echo $total2; ?>) > 80 ){
             document.getElementById('2').style.display = 'none';
             document.getElementById('2').style.visibility = 'hidden';
-            
+
         }
-        
+
         if (parseInt(<?php echo $total3; ?>) > 80 ){
             document.getElementById('3').style.display = 'none';
             document.getElementById('3').style.visibility = 'hidden';
-            
+
         }
-        
+
         if (parseInt(<?php echo $total4; ?>) > 80 ){
             document.getElementById('4').style.display = 'none';
             document.getElementById('4').style.visibility = 'hidden';
-            
+
         }
-       
-     </script>
-    
-    
-    <!-- Background image -->
-    
-    <script>
-    
+
     </script>
-    
+
+
+    <!-- Background image -->
+
+    <script>
+
+    </script>
+
     <!--Translate-->
     <script>
-        
- if (parseInt(<?php echo $total4; ?>) > 80 ){
-     document.body.style.backgroundImage = "url('bar6.png')";
-           
-            
+        if (parseInt(<?php echo $total; ?>) > 24 ){
+            document.getElementById("Bar 1").style.backgroundImage = "url('bar2.png')";
         }
-    
-</script>
+        if (parseInt(<?php echo $total; ?>) > 25 ){
+            document.getElementById("Bar 1").style.backgroundImage = "url('bar3.png')";
+        }
+
+        if (parseInt(<?php echo $total; ?>) > 47 ){
+            document.getElementById("Bar 1").style.backgroundImage = "url('bar4.png')";
+        }
+
+        if (parseInt(<?php echo $total; ?>) > 60 ){
+            document.getElementById("Bar 1").style.backgroundImage = "url('bar5.png')";
+        }
+        if (parseInt(<?php echo $total; ?>) > 71 ){
+            document.getElementById("Bar 1").style.backgroundImage = "url('bar6.png')";
+        }
+
+        if (parseInt(<?php echo $total; ?>) > 80 ){
+            document.getElementById("Bar 1").style.backgroundImage = "url('bar6.png')";
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+                if (parseInt(<?php echo $total2; ?>) > 24 ){
+            document.getElementById("Bar 2").style.backgroundImage = "url('bar2.png')";
+        }
+        if (parseInt(<?php echo $total2; ?>) > 25 ){
+            document.getElementById("Bar 2").style.backgroundImage = "url('bar3.png')";
+        }
+
+        if (parseInt(<?php echo $total2; ?>) > 47 ){
+            document.getElementById("Bar 2").style.backgroundImage = "url('bar4.png')";
+        }
+
+        if (parseInt(<?php echo $total2; ?>) > 60 ){
+            document.getElementById("Bar 2").style.backgroundImage = "url('bar5.png')";
+        }
+        if (parseInt(<?php echo $total2; ?>) > 71 ){
+            document.getElementById("Bar 2").style.backgroundImage = "url('bar6.png')";
+        }
+
+        if (parseInt(<?php echo $total2; ?>) > 80 ){
+            document.getElementById("Bar 2").style.backgroundImage = "url('bar6.png')";
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                if (parseInt(<?php echo $total3; ?>) > 24 ){
+            document.getElementById("Bar 3").style.backgroundImage = "url('bar2.png')";
+        }
+        if (parseInt(<?php echo $total3; ?>) > 25 ){
+            document.getElementById("Bar 3").style.backgroundImage = "url('bar3.png')";
+        }
+
+        if (parseInt(<?php echo $total3; ?>) > 47 ){
+            document.getElementById("Bar 3").style.backgroundImage = "url('bar4.png')";
+        }
+
+        if (parseInt(<?php echo $total3; ?>) > 60 ){
+            document.getElementById("Bar 3").style.backgroundImage = "url('bar5.png')";
+        }
+        if (parseInt(<?php echo $total3; ?>) > 71 ){
+            document.getElementById("Bar 3").style.backgroundImage = "url('bar6.png')";
+        }
+
+        if (parseInt(<?php echo $total3; ?>) > 80 ){
+            document.getElementById("Bar 3").style.backgroundImage = "url('bar6.png')";
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                if (parseInt(<?php echo $total4; ?>) > 24 ){
+            document.getElementById("Bar 4").style.backgroundImage = "url('bar2.png')";
+        }
+        if (parseInt(<?php echo $total4; ?>) > 25 ){
+            document.getElementById("Bar 4").style.backgroundImage = "url('bar3.png')";
+        }
+
+        if (parseInt(<?php echo $total4; ?>) > 47 ){
+            document.getElementById("Bar 4").style.backgroundImage = "url('bar4.png')";
+        }
+
+        if (parseInt(<?php echo $total4; ?>) > 60 ){
+            document.getElementById("Bar 4").style.backgroundImage = "url('bar5.png')";
+        }
+        if (parseInt(<?php echo $total4; ?>) > 71 ){
+            document.getElementById("Bar 4").style.backgroundImage = "url('bar6.png')";
+        }
+
+        if (parseInt(<?php echo $total4; ?>) > 80 ){
+            document.getElementById("Bar 4").style.backgroundImage = "url('bar6.png')";
+        }
+
+
+
+
+
+
+
+
+
+    </script>
+
+
 </html>
 
 
