@@ -122,7 +122,7 @@ $total2 = ($bob / $dave2)
 ?>
 
 <?php    
-    $sql = "SELECT COUNT(*) as `dave3` FROM `ricochet` WHERE `DevNo`= 17 AND `ExpanderId` = 1 AND `id` > 3780000 ";
+    $sql = "SELECT COUNT(*) as `dave3` FROM `ricochet` WHERE `DevNo`= 25 AND `ExpanderId` = 1 AND `id` > 3780000 ";
 
 $result = $conn->query($sql);
 
@@ -134,7 +134,7 @@ $total3 = ($bob / $dave3)
 ?>
 
 <?php    
-    $sql = "SELECT COUNT(*) as `dave4` FROM `ricochet` WHERE `DevNo`= 25 AND `ExpanderId` = 1 AND `id` > 3780000  ";
+    $sql = "SELECT COUNT(*) as `dave4` FROM `ricochet` WHERE `DevNo`= 8 AND `ExpanderId` = 1 AND `id` > 3780000  ";
 
 $result = $conn->query($sql);
 
@@ -151,7 +151,7 @@ $total4 = ($bob / $dave4)
 
     <head>
 
-        <img class = "title" src = "Title.png">
+        <img class = "title" src = "/Pac/Title.png">
 
     </head>
 
